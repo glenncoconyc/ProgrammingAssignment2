@@ -39,6 +39,7 @@ cacheSolve <- function(x, ...) {
   }
   data <- x$get()
   
+  
   #Calculates the inverse of the matrix using the solve function
   InverseMat <- solve(data, ...)
   
